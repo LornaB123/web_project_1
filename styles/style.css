@@ -16,6 +16,29 @@
     /* parameters for the header section */
 }
 
+.logo_place_holder {
+    position: absolute;
+}
+
+.header_subtitle {
+    flex: cetner;
+    margin: right;
+}
+
+.header_subtitle {
+    position: absolute;
+}
+
+.header_link {
+    position: absolute;
+    bottom: right;
+}
+
+.header_main-illustration {
+    position: absolute;
+}
+
+
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
     height: 568px;
