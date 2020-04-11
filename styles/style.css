@@ -19,23 +19,50 @@
 .logo_place_holder {
     position: absolute;
 }
+.logo {
+    height: 31px;
+    width: 154px;
+}
 
-.header_subtitle {
-    flex: cetner;
-    margin: right;
+.header_title{
+    width: 730px;
+    margin-left: 64px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .header_subtitle {
+    flex: center;
+    margin-left: 64px;
     position: absolute;
+    width: 388px;
+    bottom: 40px;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .header_link {
     position: absolute;
     bottom: right;
+    color: #2F80ED;
+    bottom: 30px;
+    left: 64px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .header_main-illustration {
     position: absolute;
+    background-image:square; 
+    width: 765px;
+    height:608px;
+    bottom: 0;
+    right:0;
+    z-index: 1;
 }
 
 
@@ -43,6 +70,11 @@
 .header__square-pic {
     height: 568px;
     width: 568px;
+    background: #2F80ED;
+    position: absolute;
+    right: 0;
+    z-index:0;
+    top: 64px;
 }
 
 /* including elements with key-value modifiers */
