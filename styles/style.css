@@ -13,10 +13,17 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
+    background-color: #F2F2F2;
+    display: flex;
+    position: relative;
     /* parameters for the header section */
 }
 
 .logo_place_holder {
+    width: 154px;
+    height: 31px;
+    margin-left: 64px;
+    margin-top: 30px;
     position: absolute;
 }
 .logo {
@@ -56,8 +63,7 @@
 }
 
 .header_main-illustration {
-    position: absolute;
-    background-image:square; 
+    position: absolute; 
     width: 765px;
     height:608px;
     bottom: 0;
