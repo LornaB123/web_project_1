@@ -35,6 +35,7 @@
     font-weight: bold;
     display: flex;
     align-items: center;
+    margin-top: 250px;
 }
 
 .header__subtitle {
@@ -44,6 +45,7 @@
     width: 388px;
     bottom: 40px;
     font-size: 18px;
+    line-height: 25px;
     font-weight: normal;
 }
 
@@ -52,7 +54,6 @@
     bottom: 30px;
     width: 388px;
     color: #2F80ED;
-    bottom: 30px;
     left: 64px;
     line-height: 25px;
     font-size: 18px;
