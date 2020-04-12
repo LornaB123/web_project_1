@@ -38,8 +38,8 @@
 }
 
 .header__subtitle {
-    flex: center;
-    margin-left: 64px;
+    position: absolute;
+    left: 64px;
     position: absolute;
     width: 388px;
     bottom: 40px;
@@ -49,7 +49,8 @@
 
 .header__link {
     position: absolute;
-    bottom: right;
+    bottom: 30px;
+    width: 388px;
     color: #2F80ED;
     bottom: 30px;
     left: 64px;
@@ -66,4 +67,12 @@
     right:0;
     z-index: 1;
 }
-
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+    background: #2F80ED;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    z-index: 0;
+}
