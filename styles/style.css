@@ -41,7 +41,6 @@
 .header__subtitle {
     position: absolute;
     left: 64px;
-    position: absolute;
     width: 388px;
     bottom: 40px;
     font-size: 18px;
@@ -223,30 +222,35 @@
 	display: flex;
 	display-content: center;
 	flex-direction: column;
+	background-color: black;
+	color: white;
+	margin-bottom: 90px;
+	margin-top: 90px;
 }
 
-.kaufman__section-title-dark{
+.kaufman__section-title_dark{
 	font-size: 60px;
 	font-weight:bold;
 	text-align: center;
 	margin-bottom:20px;
-	margin-top: 90px;
 	line-height: 69px;
-	width: 60%
+	width: 60%;
+	display: flex;
 }
 .kaufman__section-subtitle_dark{
 	line-height: 34px;
 	font-size: 24px;
 	font-color: white;
 	font-weight: normal;
-	margin-top: 20px;
-	width: 60%
+	width: 60%;
+	display: flex;
 }
 .kaufman__table_theme_dark{
 	width: 1100px;
 	margin: 0 auto;
 	display: flex;
 	position: relative;
+	margin: 0 auto;
 }
 
 .kaufman__table-cell_theme_dark{
