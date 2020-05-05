@@ -253,26 +253,27 @@
   color: white;
   padding-top: 60px;
   padding-bottom: 40px;
-  border: 1px solid red;
 }
+
 .footer__columns{
   display: flex;
   width: 90%;
   margin: auto;
-  justify-content: space-between;
-  border: 1px solid red;
+  justify-content:space-between;
 }
+
 .footer__column_content_copyright{
   display: flex;  
   flex-basis: 711px;
   justify-content: space-between;
-  border: 1px solid red;
 }
+
 .logo_place_footer{
   background-size: contain;
   height: 35px;
   width: 183px;
 }
+
 .footer__author{
   list-style: none;
   align-self: flex-end;
@@ -281,13 +282,12 @@
   font-weight: normal;
   padding-bottom: 18px;
   padding-top: 18px;
-  border: 1px solid red;
 }
+
 .footer__column_content_info{
 flex-direction: column;
-      border: 1px solid red;
-
 }
+
 .footer__column-heading{
   line-height: 45px;
   margin-top: 0;
@@ -309,8 +309,8 @@ flex-direction: column;
 }
 .footer__column_content_social{
   flex-direction: column;
-      border: 1px solid red;
 }
+
 .footer__social-icon{
   list-style: none;
   height: 16px;
@@ -318,3 +318,4 @@ flex-direction: column;
   padding-right: 10px;
   color: #2F80ED;
 }
+
