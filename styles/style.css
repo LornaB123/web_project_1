@@ -42,7 +42,7 @@
     position: absolute;
     left: 64px;
     width: 388px;
-    bottom: 30px;
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: 25px;
     font-weight: normal;
@@ -74,12 +74,14 @@
 .description{
   padding-top: 100px;
   padding-bottom: 100px;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
 }
 
-.description__two-columns{
+.two-columns{
   display: flex;
-  width: 80%;
-  margin: auto;
+  justify-content: space-between;
 }
 
 .two-columns__brief{
@@ -88,42 +90,43 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+   
 }
 
 .two-columns__main-text{
   min-width: 784px;
+  width: 80%;
   flex-direction: column;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 .two-columns__paragraph{
   align-self: center;
   justify-content: space-between;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
-.two-columns_span-accent{
+.two-columns__span-accent{
   font-weight: bold;
   line-height: 34px;
   font-size: 24px;
 }
 
 .digits{
-  padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.digits__section-title{
+.section-title{
   width: 60%;
   text-align: center;
   margin: auto;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
-.digits__section-subtitle{
+.section-subtitle{
   margin: auto;
   text-align: center;
   width: 60%;
@@ -139,19 +142,19 @@
   width: 1100px;
 }
 
-.table_cell{
+.table__cell{
   width: 250px;
-  padding-top: 60px;
+  margin-top: 60px;
   list-style: none;
 }
 
-.table_heading{
+.table__heading{
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table_text{
+.table__text{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -206,51 +209,16 @@
   position: relative;
 }
 
-.section-title_theme_dark{
-  width: 60%;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 20px;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-}
-
-.section-subtitle_theme_dark{
-  width: 60%;
-  margin: auto;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
 .table__theme_dark{
-  display: flex;
-  justify-content: space-between;
-  width: 1100px;
-  margin: auto;
   z-index: 2;
 }
 
 .table__cell_theme_dark {
   width: 200px;
-  list-style: none;
   margin-top: 80px;
   z-index: 2;
 } 
 
-.table__heading_theme_dark{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.table__text_theme_dark{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
 
 .kaufman__triangle{
   position: absolute;
@@ -323,3 +291,4 @@
   height: 16px;
   margin-right: 10px;
 }
+
