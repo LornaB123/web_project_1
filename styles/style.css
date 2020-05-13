@@ -76,12 +76,13 @@
   padding-bottom: 100px;
   margin: 0 auto;
   width: 80%;
-  justify-content: space-between;
+        border: 1px solid red;
 }
 
 .two-columns{
   display: flex;
   justify-content: space-between;
+        border: 1px solid red;
 }
 
 .two-columns__brief{
@@ -91,21 +92,22 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0; 
+        border: 1px solid red;
 }
 
 .two-columns__main-text{
   min-width: 784px;
   width: 80%;
-  flex-direction: column;
+    border: 1px solid red;
 }
 
 .two-columns__paragraph{
-  align-self: center;
   justify-content: space-between;
   line-height: 34px;
   font-size: 24px;
   margin-top: 0;
   font-weight: normal;
+        border: 1px solid red;
 }
 
 .two-columns__span-accent{
@@ -294,3 +296,4 @@
   height: 16px;
   margin-right: 10px;
 }
+
