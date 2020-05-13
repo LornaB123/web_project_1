@@ -140,6 +140,7 @@
   display: flex;
   justify-content: space-between;
   margin: auto;
+  padding-left: 0;
   width: 1100px;
 }
 
@@ -193,7 +194,7 @@
 
 .feynman__link{
   position: absolute;
-  height: 50%;
+  top: 50%;
   text-decoration: none;
   right: 48px;
   line-height: 51px;
