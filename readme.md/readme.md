@@ -1,4 +1,3 @@
-#H1
 Web Design Project 1
 =====================
 This project includes video iframes, images, links, icons and layouts to create a webpage all about learning techniques.
