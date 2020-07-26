@@ -306,6 +306,7 @@
    background-color: #F2F2F2;
    justify-content: center;
    padding-top: 105px;
+   
 }
 
 .khan__container{
@@ -359,6 +360,7 @@
     overflow: hidden;
     object-fit: cover;
     object-position: top;
+    position: relative;
 }
 
 .khan__buy-link{
@@ -367,7 +369,11 @@
     opacity: 1;
     line-height: 42px;
     font-size: 30px;
-    font-weight: normal;    
+    font-weight: normal;
+    position: absolute;
+    left: 48px;
+    top: 0;
+    
 }
 
 .khan__buy-link:hover{
