@@ -349,9 +349,9 @@
 }
 
 .khan__book-container{
-    width: 620px;
     height: 608px;
     padding-right: 48px;
+    position: relative;
 }
 
 .khan__book-pic{
@@ -360,7 +360,6 @@
     overflow: hidden;
     object-fit: cover;
     object-position: top;
-    position: relative;
 }
 
 .khan__buy-link{
@@ -371,9 +370,8 @@
     font-size: 30px;
     font-weight: normal;
     position: absolute;
-    left: 48px;
+    left: 668px;
     top: 0;
-    
 }
 
 .khan__buy-link:hover{
