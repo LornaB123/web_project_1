@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="pages/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learning how to learn">
     <meta name="keywords" content="html, css">
@@ -21,7 +20,7 @@
                 </p>
 	   	</section>
 	            <img src="images/header-image.png" alt="woman on a rock" class="header__main-illustration">
-               	    <div class="header__square-pic rotation-animation"></div>
+               	    <div class="header__square-pic rotation"></div>
 		</header>
         <main class="content">
             <section class="description">
@@ -69,12 +68,8 @@
               <h2 class="section-title">TED talks</h2>
               <p class= "section-subtitle">For lovers of procrastination</p>
               <div class= "video__iframes">
-                  <div class="video__iframe">
-                   <iframe src="https://www.youtube.com/embed/5MgBikgcWnY?controls=1" width="515" height="316"></iframe> 
-                  </div>
-                  <div class="video__iframe">
-                   <iframe  width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
-                  </div> 
+                   <iframe src="https://www.youtube.com/embed/5MgBikgcWnY?controls=1" width="515" height="316" class="video__iframe"></iframe> 
+                   <iframe  width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe"></iframe>
                </div>
             </section>
             <section class="oakley">
@@ -132,10 +127,10 @@
             </section>
             <section class="khan">
                 <div class="khan__container">
-                    <h2 class="khan__author">Salman Khan</h2>
-                    <h3 class="khan__title">The One World Schoolhouse</h3>
-                    <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of students worldwide. The One World Schoolhouse is a must-read for all who are committed to improving education so students everywhere can gain the skills and knowledge to be successful in school, careers and life.</p>
-                    <h3 class="khan__quote-author">George Lucas</h3>
+                    <p class="khan__author">Salman Khan</p>
+                    <h2 class="khan__title">The One World Schoolhouse</h2>
+                    <blockquote class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of students worldwide. The One World Schoolhouse is a must-read for all who are committed to improving education so students everywhere can gain the skills and knowledge to be successful in school, careers and life.</blockquote>
+                    <p class="khan__quote-author">George Lucas</p>
                     <p class="khan__quote-author-subline">Filmmaker</p>
                     <div class="khan__book-container">
                         <img src="images/khan-book-2.png" alt="Book Picture" class="khan__book-pic">  
@@ -189,7 +184,7 @@
                     <p class="table__text_theme_dark">Emphasize quantity and speed.</p>
                   </li>
                 </ul>
-              <img src="images/kaufman-triangle.svg" alt="Triangle" class="kaufman__triangle rotation-animation">
+              <img src="images/kaufman-triangle.svg" alt="Triangle" class="kaufman__triangle rotation">
             </section>
             <section class="resources">
               <h2 class="section-title">Useful resources</h2>

@@ -61,6 +61,6 @@
     overflow: hidden;
 }
 
-.rotation-animation{
+.rotation {
     animation: rotation 20s linear infinite;
 }
