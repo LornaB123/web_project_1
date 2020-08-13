@@ -1,0 +1,8 @@
+@import url('./table/.table__cell.css');
+
+.table__cell{
+    width: 250px;
+    margin-top: 60px;
+    list-style: none;
+  }
+  
