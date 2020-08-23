@@ -1,0 +1,5 @@
+@import url('../_dark/table_theme_dark.css');
+
+.table_theme_dark{
+    z-index: 2;
+  }

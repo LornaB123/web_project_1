@@ -1,0 +1,5 @@
+@import url('../_theme/table__heading_theme_dark.css');
+
+.table__heading_theme_dark {
+    z-index: 2;    
+  }

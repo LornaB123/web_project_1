@@ -1,3 +1,5 @@
+@import url('./__span-accent/two-columns_span-accent.css');
+
 .two-columns__span-accent{
   font-weight: bold;
   line-height: 34px;

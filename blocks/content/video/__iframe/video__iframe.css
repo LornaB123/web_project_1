@@ -1,0 +1,6 @@
+@import url('./__iframe/video__iframe.css');
+
+.video__iframe{
+    flex-direction: row;
+    margin-right: 20px;
+}

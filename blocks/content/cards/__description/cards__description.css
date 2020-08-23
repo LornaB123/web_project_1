@@ -1,0 +1,9 @@
+@import url('./__description/cards__description.css');
+
+.cards__description {
+    align-content: center;
+    text-align: center;
+    line-height: 23px;
+    font-size: 18px;
+    margin-top: 16px;
+}

@@ -1,0 +1,13 @@
+@import url('./__item/cards__item.css');
+
+.cards__item {
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    width: 240px;
+}
+
+.cards__item:nth-child(3){
+    margin-right: 0;
+}
