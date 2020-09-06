@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learning how to learn">
     <meta name="keywords" content="html, css">
@@ -15,76 +16,140 @@
 	   <img src="images/logo_place_header.png" alt="Practicum Logo" class="logo logo_place_header">
 		<section>
 		    <h1 class="header__title">Learning how to learn</h1>
-	       		<p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life.<br><a  href="#" class="header__link">Learn more →</a></p>
+	       		<p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life.
+                    <a href="#" class="header__link">Learn more →</a>
+                </p>
 	   	</section>
 	            <img src="images/header-image.png" alt="woman on a rock" class="header__main-illustration">
-               	    <div class="header__square-pic"></div>
+               	    <div class="header__square-pic rotation-animation"></div>
 		</header>
-
         <main class="content">
-            <div class="description">
-              <section class="description__two-columns">
-                <h3 class="two-columns__brief">The main problem with education</h3>
-                <div class="description__two-columns two-columns__main-text">
-                  <p class="two-columns__paragraph">Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. All you actually do is memorize information in order to regurgitate when you take the test. You get drilled on how to solve specific exercises so that while you know exactly what you need to do when exam time comes around, do you truly understand the subject material? All you've really learned is how to pass that one test. Once that test is over, the information in your head has outlived its usefulness.</p>
-                  <p class=" two-columns__paragraph"><span class="two-columns_span-accent">Conclusion:</span> Knowing how to study is absolutely essential, but for some reason, this point is too often overlooked. So, what can we do to remedy this?</p>
-                  <p class=" two-columns__paragraph"> There are certain techniques and exercises that can be applied to the learning process to help make it more efficient and engaging. This is exactly what we do at Practicum.</p>
-                </div>
-              </section>
-            </div>
-            
-            <section class="digits">
-              <h2 class="digits__section-title">Facts and figures</h2>
-              <p class= "digits__section-subtitle">On learning and the brain</p>
-              <ul class= "table">
-                <li class="table_cell">
-                  <h5 class="table_heading">86 billion</h5>
-                    <p class="table_text">The number of neurons in the human brain</p>
-                </li>
-                <li class="table_cell">
-                  <h5 class="table_heading">2.1 billion</h5>
-                  <p class="table_text">The number of adults with low reading proficiency<br>World Bank, 2017</p>
-                </li>
-                <li class="table_cell">
-                  <h5 class="table_heading">1,000 terabytes</h5>
-                  <p class="table_text">Human information storage capacity</p>
-                </li>
-                <li class="table_cell">
-                  <h5 class="table_heading">500 trillion</h5>
-                  <p class="table_text">The number of nerve synapses responsible for learning in an adult human</p>
-                </li>
-              </ul>
-              <ul class= "table">
-                <li class="table_cell">
-                  <h5 class="table_heading">420 million</h5>
-                  <p class="table_text">The number of adults under 25 with insufficient education for finding employment<br>World Bank, 2017</p>
-                </li>
-                <li class="table_cell">
-                  <h5 class="table_heading">17 - 20 years old</h5>
-                  <p class="table_text">Peak learning age</p>
-                </li>
-                <li class="table_cell">
-                  <h5 class="table_heading">1885</h5>
-                  <p class="table_text">Development of the forgetting curve</p>
-                </li>
-                <li class="table_cell">
-                  <h5 class="table_heading">1897</h5>
-                  <p class="table_text">Publication of Ivan Pavlov's research on classical conditioning</p>
-                </li>
-              </ul>
+            <section class="description">
+              <div class="two-columns">
+                <h2 class="two-columns__brief">The main problem with education</h2>
+                <div class="two-columns__main-text">
+                    <p class="two-columns__paragraph">Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. All you actually do is memorize information in order to regurgitate when you take the test. You get drilled on how to solve specific exercises so that while you know exactly what you need to do when exam time comes around, do you truly understand the subject material? All you've really learned is how to pass that one test. Once that test is over, the information in your head has outlived its usefulness.</p>
+                    <p class="two-columns__paragraph"><span class="two-columns__span-accent">Conclusion:</span> Knowing how to study is absolutely essential, but for some reason, this point is too often overlooked. So, what can we do to remedy this?</p>
+                    <p class="two-columns__paragraph"> There are certain techniques and exercises that can be applied to the learning process to help make it more efficient and engaging. This is exactly what we do at Practicum.</p>
+                  </div>
+              </div>
             </section>
-
+            <section class="techniques">
+                <h2 class="section-title">Learning Techniques</h2>
+                <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
+                <ul class="cards">
+                   <li class="cards__item">
+                       <img src="images/cards-attention.png" alt= "Thinking" class="cards__image">
+                       <h3 class="cards__title">Two Ways of Thinking</h3>
+                       <p class="cards__description">Deep understanding comes from being able to toggle back and forth between focused and diffused thinking.</p>
+                   </li> 
+                   <li class="cards__item">
+                       <img src="images/cards-recall.png" alt= "Recall" class="cards__image">
+                       <h3 class="cards__title">Recall</h3>
+                       <p class="cards__description">Improving your ability to remember key bits of information helps to connect different parts of the brain.</p>
+                   </li>
+                   <li class="cards__item">
+                       <img src="images/cards-interleaving.png" alt= "Interleaving" class="cards__image">
+                       <h3 class="cards__title">Interleaving</h3>
+                       <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.</p>
+                   </li>
+                   <li class="cards__item">
+                       <img src="images/cards-question.png" alt= "Questions" class="cards__image">
+                       <h3 class="cards__title">Questions</h3>
+                       <p class="cards__description">When listening to your teacher, think up a good question, something that you're really itching to know.</p>
+                   </li>
+                   <li class="cards__item">
+                       <img src="images/cards-competence.png" alt= "Competence" class="cards__image">
+                       <h3 class="cards__title">Illusion of Competence</h3>
+                       <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something.</p>
+                   </li>
+                </ul>
+            </section>
+            <section class="video">
+              <h2 class="section-title">TED talks</h2>
+              <p class= "section-subtitle">For lovers of procrastination</p>
+              <div class= "video__iframes">
+                  <div class="video__iframe">
+                   <iframe src="https://www.youtube.com/embed/5MgBikgcWnY?controls=1" width="515" height="316"></iframe> 
+                  </div>
+                  <div class="video__iframe">
+                   <iframe  width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+                  </div> 
+               </div>
+            </section>
+            <section class="oakley">
+                <div class="two-columns">
+                <h2 class="two-columns__brief">Barbara Oakley’s story.</h2>
+                <div class="two-columns__main-text">
+                    <p class="two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself as more of a humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after school she enlisted in the army, who sent her to learn Russian. After several years of service, during which she rose to the rank of Captain, Barbara left the army and decided to study engineering. In was during this time that she developed her learning methodology as she was forced to reprogram her brain for a different kind of learning. It turns out that when something doesn't come naturally to you, having to work hard to gain the knowledge that other people may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.</p>
+                  </div>
+              </div>
+            </section>
             <section class="feynman">
               <h2 class= "feynman__title">The Feynman Technique</h2>
               <p class="feynman__subtitle">Learn without forgetting.</p>
               <a href="#" class="feynman__link">More →</a>
             </section>
+            <section class="digits">
+              <h2 class="section-title">Facts and figures</h2>
+              <p class= "section-subtitle">On learning and the brain</p>
+              <ul class= "table">
+                <li class="table__cell">
+                  <h3 class="table__heading">86 billion</h3>
+                    <p class="table__text">The number of neurons in the human brain</p>
+                </li>
+                <li class="table__cell">
+                  <h3 class="table__heading">2.1 billion</h3>
+                  <p class="table__text">The number of adults with low reading proficiency</p>
+                    <p class="table__text">World Bank, 2017</p>
+                </li>
+                <li class="table__cell">
+                  <h3 class="table__heading">1,000 terabytes</h3>
+                  <p class="table__text">Human information storage capacity</p>
+                </li>
+                <li class="table__cell">
+                  <h3 class="table__heading">500 trillion</h3>
+                  <p class="table__text">The number of nerve synapses responsible for learning in an adult human</p>
+                </li>
+                <li class="table__cell">
+                  <h3 class="table__heading">420 million</h3>
+                    <p class="table__text">The number of adults under 25 with insufficient education for finding employment</p>
+                    <p class="table__text">World Bank, 2017</p>
+                </li>
+                <li class="table__cell">
+                  <h3 class="table__heading">17 - 20 years old</h3>
+                  <p class="table__text">Peak learning age</p>
+                </li>
+                <li class="table__cell">
+                  <h3 class="table__heading">1885</h3>
+                  <p class="table__text">Development of the forgetting curve</p>
+                </li>
+                <li class="table__cell">
+                  <h3 class="table__heading">1897</h3>
+                  <p class="table__text">Publication of Ivan Pavlov's research on classical conditioning</p>
+                </li>
+              </ul>
+            </section>
+            <section class="khan">
+                <div class="khan__container">
+                    <h2 class="khan__author">Salman Khan</h2>
+                    <h3 class="khan__title">The One World Schoolhouse</h3>
+                    <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of students worldwide. The One World Schoolhouse is a must-read for all who are committed to improving education so students everywhere can gain the skills and knowledge to be successful in school, careers and life.</p>
+                    <h3 class="khan__quote-author">George Lucas</h3>
+                    <p class="khan__quote-author-subline">Filmmaker</p>
+                    <div class="khan__book-container">
+                        <img src="images/khan-book-2.png" alt="Book Picture" class="khan__book-pic">  
+                        <a href="#" class="khan__buy-link">Buy book →</a>
+                    </div>
+                    
+                </div>
+            </section>
             <section class="kaufman">
               <h2 class="section-title_theme_dark">Ten principles of rapid skill acquisition</h2>
               <p class="section-subtitle_theme_dark">by Josh Kaufman</p>
-                <ul class="table__theme_dark">
+                <ul class="table_theme_dark">
                   <li class="table__cell_theme_dark">
-                    <h4 class="table__heading_theme_dark">1</h4>
+                    <h3 class="table__heading_theme_dark">1</h3>
                     <p class="table__text_theme_dark">Choose a lovable project.</p>
                   </li>
                   <li class="table__cell_theme_dark">
@@ -103,8 +168,6 @@
                     <h4 class="table__heading_theme_dark">5</h4>
                     <p class="table__text_theme_dark">Obtain critical tools.</p>
                   </li>
-                </ul>
-                <ul class="table__theme_dark">
                   <li class="table__cell_theme_dark">
                     <h4 class="table__heading_theme_dark">6</h4>
                     <p class="table__text_theme_dark">Eliminate barriers to practice.</p>
@@ -126,29 +189,42 @@
                     <p class="table__text_theme_dark">Emphasize quantity and speed.</p>
                   </li>
                 </ul>
-              <div class="kaufman__triangle"><img src="images/kaufman-triangle.svg" alt="Triangle"></div>
+              <img src="images/kaufman-triangle.svg" alt="Triangle" class="kaufman__triangle rotation-animation">
+            </section>
+            <section class="resources">
+              <h2 class="section-title">Useful resources</h2>
+              <p class= "section-subtitle">Further materials on learning techniques and hacks.</p>
+                <div class="resources__logo-zone">
+                    <img src="images/logo/resources-tedED.png" alt="TEDEd" class="resources__logo">
+                    <img src="images/logo/resources-Medium.png" alt="Medium" class="resources__logo">
+                    <img src="images/logo/resources-dezeen.png" alt="Dezeen" class="resources__logo">
+                    <img src="images/logo/resources-goodreads.png" alt="goodreads" class="resources__logo">
+                </div>
             </section>
         </main>
-       <footer class="footer">
-          <section class="footer__columns">
-            <div class="footer__column_content_copyright">
-                <img src="images/logo_place_footer.png" alt="Practicum Logo" class="logo logo_place_footer"> 
-              <p class="footer__author">© 2020. Lorna Bogan</p>
-              </div>
-            <ul class="footer__column_content_info">
-              <h5 class="footer__column-heading">About Practicum by Yandex</h5>
-                <li class="footer__column-links"><a href="#" class="footer__column-links">Home page</a></li>
-                <li class="footer__column-links"><a href="#" class="footer__column-links">Concept</a></li>
-                <li class="footer__column-links"><a href="#" class="footer__column-links">Mentors</a></li>
-            </ul>
-            <ul class="footer__column_content_social">
-              <h5 class="footer__column-heading">Social media</h5>
-                <li class="footer__column-links"><img src="images/facebook_color_white.svg" alt="Facebook" class="footer__social-icon"><a href="https://www.facebook.com/YPracticum/" class="footer__column-links">Facebook</a></li>
-                <li class="footer__column-links"><img src="images/instagram_color_white.svg" alt="Instagram" class="footer__social-icon"><a href="https://www.instagram.com/yndx.practicum/?hl=en" class="footer__column-links">Instagram</a></li>
-            </ul>
-          </div>
-          
-        </footer>
-  </div>
-</body>
-</html> 
+        <footer class="footer">
+         <div class="footer__columns">
+           <div class="footer__column footer__column_content-copyright">
+             <img src="images/logo_place_footer.png" alt="Practicum Logo" class="logo logo_place_footer"> 
+             <p class="footer__author">© 2020. Lorna Bogan</p>
+            </div>
+            <div class="footer__column footer__column_content-info">
+              <h2 class="footer__column-heading">About Practicum by Yandex</h2>
+               <ul class="footer__column-links">
+                <li><a href="#" class="footer__column-link">Home page</a></li>
+                <li><a href="#" class="footer__column-link">Concept</a></li>
+                <li><a href="#" class="footer__column-link">Mentors</a></li>
+               </ul>
+             </div>
+             <div class="footer__column footer__column_content-social">
+               <h3 class="footer__column-heading">Social media</h3>
+                 <ul class="footer__column-links">
+                   <li><img src="images/facebook_color_white.svg" alt="Facebook Icon" class="footer__social-icon"><a href="https://www.facebook.com/YPracticum/" class="footer__column-link">Facebook</a></li>
+                   <li><img src="images/instagram_color_white.svg" alt="Instagram Icon" class="footer__social-icon"><a href="https://www.instagram.com/yndx.practicum/?hl=en" class="footer__column-link">Instagram</a></li>
+               </ul>
+             </div>
+           </div>
+          </footer>
+       </div>
+     </body>
+    </html> 
