@@ -1,69 +1,15 @@
+@import url('../logo/_place_footer/logo_place_footer.css');
+@import url('../footer/__author/footer__author.css');
+@import url('../footer/__column-heading/footer__column-heading.css');
+@import url('../footer/__column-link/footer__column-link.css');
+@import url('../footer/__column-links/footer__column-links.css');
+@import url('../footer/__column_content-copyright/footer__column_content-copyright.css');
+@import url('../footer/__columns/footer__columns.css');
+@import url('../footer/__social-icon/footer__social-icon.css');
+
 .footer{
   padding-top: 60px;
   padding-bottom: 40px;
   background-color: #1f1f1f;
   color: white;
-}
-
-.footer__columns{
-  display: flex;
-  width: 90%;
-  margin: auto;
-  min-height: 350px;
-  justify-content: space-between;
-}
-
-
-.footer__column_content-copyright{
-  flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.logo_place_footer{
-  width: 183px;
-  height: 35px;
-  background-size: contain;
-}
-
-.footer__author{
-  line-height: 25px;
-  font-size: 18px;
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
-
-.footer__column-heading{
-  line-height: 45px;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-.footer__column-links{
-  list-style: none;
-  padding: 0;
-}
-
-
-.footer__column-link{
-  text-decoration: none;
-  color: white;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  opacity: 1;
-}
-
-.footer__column-link:hover{
-    opacity: .5;
-    transition: color 2s ease .5s;
-}
-
-.footer__social-icon{
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
 }
