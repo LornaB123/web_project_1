@@ -4,3 +4,8 @@
     object-fit: contain;
     list-style: none;
 }
+
+.resources__logo:hover{
+    opacity: .5;
+    transition: color 2s ease .5s;
+}

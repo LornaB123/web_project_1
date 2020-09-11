@@ -1,5 +1,3 @@
-@import url('./__paragraph/two-columns__paragraph.css');
-
 .two-columns__paragraph{
   justify-content: space-between;
   line-height: 34px;
